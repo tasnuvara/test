@@ -1,19 +1,18 @@
 package Practice1;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
 
 public class FirstSelenium {
 
 	public static void main(String[] args) {
 		
-		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\dasta\\Downloads\\chromedriver.exe");
-		
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webderiver.ie.driver", "C:\\Webdrivers\\IEDriverServer.exe");
+		WebDriver driver = new InternetExplorerDriver();
 	
-		driver.get("http://www.facebook.com");
-		System.out.println(driver.getTitle());
+		driver.get("https://www.google.com");
+				System.out.println(driver.getTitle());
 		
 	
 	}

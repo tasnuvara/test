@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"C:\\Users\\dasta\\eclipse-workspace\\ThirdMavenProject\\Feature\\Appfeature.feature"},
+		features= {"src\\test\\ThirdMavenProject"},
 		glue= {"stepDefination"})
 public class GoogleTestRunner {
 
